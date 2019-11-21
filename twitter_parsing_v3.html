@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/alasql/0.3/alasql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.12/xlsx.core.min.js"></script>
+  <script src="src/js/parser.js"></script>
+  <script async='' src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
+
+  <link rel="stylesheet" type="text/css" href="src/css/mystyle.css">
+
+</head>
+<title>
+  Verificador de Tweets
+</title>
+
+<body>
+  <div class="botoes">
+    <div class="botao-carrega-mais-tweets">
+      <button onclick="loadMoreTweets()">Carrega mais tweets</button>
+    </div>
+    <div class="botao-download">
+      <button onclick="saveFile()">Salvar e baixar excel</button>
+    </div>
+    <div class="botao-gerador-tweets">
+      <button onclick="mappingTweet()">Mapeia tweets</button>
+    </div>
+    <br>
+  </div>
+  <div class="corpo_twitter" id="corpo_twitter"></div>
+  <script>
+    var corpinho = "<a class='twitter-timeline' href='https://twitter.com/" + pegaParametro() + "'>Tweets by " + pegaParametro() + "</a>"
+    document.getElementById("corpo_twitter").innerHTML = corpinho;
+  </script>
+
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>

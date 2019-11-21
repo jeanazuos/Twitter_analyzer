@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="src/js/parser.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/mystyle.css">
+
+</head>
+
+<body>
+    <div class="centralize">
+        <h2>Tweet Analyzer</h2>
+
+        <form action="#" onsubmit="event.preventDefault(); ResgataForm();">
+            Insira a pagina que deseja mapear:
+            <br>
+            <br>
+            <input type="text" name="firstname" id="uniqueID">
+            <br>
+            <br>
+            <input type="submit" value="Carregar pagina">
+
+        </form>
+        <script>
+            function ResgataForm() {
+                nameValue = document.getElementById("uniqueID").value;
+                validateMyForm("pagina=" + nameValue)
+            }
+        </script>
+    </div>
+</body>
+
+</html>
