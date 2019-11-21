@@ -1,5 +1,5 @@
 # Twitter_analyzer
-Este projeto visa ajudar no mapeamento de páginas do twiiter, com ele é possível mapear  a quantidade de posts que uma determinada página fez e gerar relatórios a partir dessa informação. Para utilizar o projeto não é necessário nada de especial, o código foi feito para funcionar local necessitando apenas de um navegador que execute javascript.
+Este projeto visa ajudar no mapeamento de páginas do twiiter, com ele é possível mapear  a quantidade de posts que uma determinada página fez e gerar relatórios a partir dessa informação. Para utilizar o projeto não é necessário nada de especial, o código foi feito para funcionar necessitando apenas de um navegador que execute javascript.
 
 
 # Como usar
