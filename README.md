@@ -12,5 +12,3 @@ Este projeto visa ajudar no mapeamento de páginas do twiiter, com ele é possí
      * [Salvar e baixar excel] : Informará a quantidade de tweets encontrados, o período de data e realizará o download no formato excel;
      * [Mapeia tweets] : Irá mapear os tweets na página e informar quantos foram encontrados dentro do período entre o primeiro tweet e o último;
      
-# Nota:
-     * Este projeto visa apenas um estudo da plataforma, portanto não é usado comercialmente.
